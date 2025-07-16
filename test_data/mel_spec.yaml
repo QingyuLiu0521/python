@@ -1,0 +1,6 @@
+mel_spec:
+  target_sample_rate: 24000
+  n_mel_channels: 100
+  hop_length: 256
+  win_length: 1024
+  n_fft: 1024
