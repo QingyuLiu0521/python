@@ -8,7 +8,7 @@ def calculate_sum_without_executor(numbers):
     start = time()
     for n in numbers:
         cpu_bound(n)
-    print(f"Total time (with executor): {time() - start:.2f} seconds")
+    print(f"Total time (without executor): {time() - start:.2f} seconds")
 
 def calculate_sum_with_executor(numbers):
     start = time()
